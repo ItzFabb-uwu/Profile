@@ -1,0 +1,14 @@
+name: Profile
+author: ItzFabb
+version: 1
+api: ["3", "4"]
+main: ItzFabb\Main
+
+commands:
+  profile:
+    description: check your profile...
+    permission: profile.command
+    
+permission:
+  profile.command:
+    description: allows player to use /profile
